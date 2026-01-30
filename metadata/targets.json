@@ -2,18 +2,27 @@
  "signatures": [
   {
    "keyid": "9e6913340073441d12443a6ec8d009ff08d160ef5cabab530d4cdba2254d90fe",
-   "sig": "4d989f8b4e6e93070c0d55bf03facef395f0c6094653e9264e7107a3bf9697bad2b0d1917f449fc1bcd7925fb24b730b47f3a4754aa47f312499d3fbd4659301"
-  },
-  {
-   "keyid": "2eee13367934810c81184ce4c336940557ed30cb4862a03c25ef894481e3f9a9",
-   "sig": "1739c078e6af171e658f71a0804f126a490b8c85d4b53dfec0d2c270f8e3c7ea0c32b03bd59643654c5da5799d211a3f704fd51b8f1d20181c3decb986695505"
+   "sig": "f051fd6755aae8ba2ddc0f7910d12939ffa1a100691196d5800d46bf30d74ec7a71d30f6da4fc03b373f9bfa013a80adfe4c2eb727ca605b83bd70de887dab06"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-02-06T09:55:29Z",
+  "expires": "2026-02-06T10:41:54Z",
   "spec_version": "1.0.31",
-  "targets": {},
-  "version": 3
+  "targets": {
+   "qapp-1.0.0.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "3ba15bfd621c9183cbdd1b3ca5dbd6ed0fae8b04a2591ce8c72e3e3f8f23983f"
+    },
+    "length": 61694522
+   }
+  },
+  "version": 4
  }
 }
