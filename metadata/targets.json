@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "9e6913340073441d12443a6ec8d009ff08d160ef5cabab530d4cdba2254d90fe",
-   "sig": "e576744b4c3789004055c893b6cf5b66f44d6f6a7ea5235e653c37c9e41092499d8c9146d2df5bba729646d5c7d18bc8d9598c521d278cc547532c974230080d"
+   "sig": "2440e492a54f5049fadc7b579dd861f4ce380ca0bbd5d0e74f092a17074f0c5d5a4e50d1f50b0170f36a9eaa70ae98c20471d5ec78357638e38cf96b044e3007"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-02-06T13:06:59Z",
+  "expires": "2026-02-06T13:23:51Z",
   "spec_version": "1.0.31",
   "targets": {
    "qapp-1.0.0.tar.gz": {
@@ -177,8 +177,34 @@
      "sha256": "83e015a985dfa9f0aba8903f30342c842b7bfc102dada851faafa99ef6ca1c5d"
     },
     "length": 61694508
+   },
+   "qapp-1.0.8.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "c001dfd04771755d2f9579b3738411aeb2fe83fe043647b94e61e348c5ebf2ad",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 62105600
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "f19f99d2d0e94a43ef9b16ec6a75993bd0b811e0dd39194b5db733bc64204639"
+    },
+    "length": 26526
+   },
+   "qapp-1.0.8.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "934e43cc15b4c5a727c616f5284e566de4e16bfad7c6b0b7d7f948fb2416e594"
+    },
+    "length": 61694477
    }
   },
-  "version": 10
+  "version": 11
  }
 }
